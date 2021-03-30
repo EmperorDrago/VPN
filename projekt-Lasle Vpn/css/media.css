@@ -1,0 +1,158 @@
+@media (max-width:992px) {
+    .header__inner {
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    .header__menu {
+        order: 1;
+        width: 100%;
+    }
+
+    .menu__list {
+        justify-content: flex-end;
+        padding-top: 30px;
+    }
+
+    .top__inner {
+        background-image: none;
+    }
+
+    .features__inner-img {
+        width: 40%;
+    }
+
+
+    .plan__parts-desk {
+        flex-wrap: wrap;
+        padding: 0 70px 70px;
+
+    }
+    .map__image {
+        width: 80%;
+    }
+    .map__part {
+
+        flex-wrap: wrap;
+    }
+
+    .slider__inner {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:860px) {
+    .features__inner-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .features__inner {
+        flex-wrap: wrap;
+    }
+
+    .features__inner-content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .top__inner {
+        padding: 80px 0 60px;
+    }
+
+    .info__inner {
+        padding-top: 10px;
+        flex-wrap: wrap;
+
+    }
+
+    .info__line {
+        border: none;
+    }
+
+    .plan__parts {
+        padding: 30px 0 30px;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media (max-width:320px) {
+    .top__text {
+        white-space: pre-line;
+        font-size: 13px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .plan__parts {
+        width: 300px;
+        height: 700px;
+        margin-left: -75px;
+
+       
+    }
+     
+}
+
+
+@media (max-width:524px) {
+    .header__inner {
+        display: block;
+    }
+
+    .menu__list {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        text-align: center;
+        transition: all .3s;
+        transform: translateY(-300%);
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateY(0%);
+        transition: all .3s;
+    }
+
+    .menu__list-link {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .menu__btn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+
+    .user__nav {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .menu__list-item+.menu__list-item {
+        margin-left: 0;
+    }
+
+    .top__title,
+    .features__inner-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .top__text {
+        font-size: 15px;
+        line-height: 32px;
+        white-space: nowrap;
+    }
+
+
+}
